@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    background-image: url('../images/table.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title{
+    color: goldenrod;
+    margin-block: 50px;
+    font-size: 45px;
+}
+
+#message{
+    font-size: 25px;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+
+#cards,
+#sum{
+    font-size: 20px;
+    margin-block: 20px;
+}
+
+.btn{
+    width: 150px;
+    padding-block: 10px;
+    color: #016f32;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: goldenrod;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-block: 10px;
+}
